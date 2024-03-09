@@ -1,0 +1,12 @@
+name = input("What's your name? ")
+print("Hello " + name + "!" + " Do you want to solve this riddle?")
+answer = input("").lower()
+if answer == "no":
+    print("See you around")
+elif answer == "yes":
+    print("What's in a corner and travels the world?")
+    answer_1 = input("").lower()
+    if answer_1 == "stamp":
+        print("Nice job!")
+    else:
+        print("Try again next time")
