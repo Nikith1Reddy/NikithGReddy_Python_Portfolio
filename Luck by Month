@@ -1,0 +1,33 @@
+#Lucky by Month
+name = input("What's your name? ")
+print("Hello " + name + "!" + " Do you want to see if your lucky")
+answer = input("").lower()
+if answer == "no":
+    print("See you around")
+elif answer == "yes":
+    print("Input you birth month number from 1 to 12")
+    answer_1 = input("").lower()
+    if answer_1 == "1":
+        print("You are very Lucky")
+    elif answer_1 == "2":
+        print(" Some what Lucky")
+    elif answer_1 == "3":
+        print(" Little Lucky")
+    elif answer_1 == "4":
+        print(" Bad Lucky")
+    elif answer_1 == "5":
+        print(" Very Lucky")
+    elif answer_1 == "6":
+        print(" Very Bad Lucky")
+    elif answer_1 == "7":
+        print(" Decent Lucky")
+    elif answer_1 == "8":
+        print(" Some what  Lucky")
+    elif answer_1 == "9":
+        print(" Bad Lucky")
+    elif answer_1 == "10":
+        print(" Very Good Lucky")
+    elif answer_1 == "11":
+        print("  Bad Lucky")
+    elif answer_1 == "12":
+        print(" Lucky")
