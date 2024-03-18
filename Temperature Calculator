@@ -1,0 +1,10 @@
+# Temperature Calculator
+Temperature = int(input("Temperature: "))
+unit = input("(F) or (C): ")
+
+if unit.upper() == "F":
+    converted = (Temperature - 32) * 5/9 
+    print("Your Temperature in C is: " + str(converted))
+else:
+    converted = (Temperature * 9/5) + 32 
+    print("Your Temperature in F is: " + str(converted))
